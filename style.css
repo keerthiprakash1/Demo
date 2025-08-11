@@ -1,0 +1,131 @@
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1,
+        h2,
+        h3 {
+            text-align: center;
+        }
+
+        h1 {
+            color: #8B4513;
+            margin-top: 20px;
+        }
+
+        h2 {
+            color: #6F4E37;
+        }
+
+        h3 {
+            color: #7b4343;
+            margin-top: 30px;
+        }
+
+        #weblink {
+            display: block;
+            text-align: center;
+            margin: 20px auto;
+            color: #d2691e;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .highlight {
+            text-align: center;
+            font-size: 18px;
+            margin: 20px auto;
+            color: #e65100;
+        }
+
+        p,
+        ul,
+        ol,
+        table {
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 30px auto;
+            background-color: #fff;
+        }
+
+        th,
+        td {
+            border: 1px solid #ccc;
+            padding: 10px 15px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f4a261;
+            color: white;
+        }
+
+        td {
+            background-color: #ffe8d6;
+        }
+
+        form {
+            width: 80%;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #fef6f0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(139, 69, 19, 0.2);
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 95%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #a0522d;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #8b3e1f;
+        }
+
+        video,
+        audio,
+        iframe {
+            display: block;
+            margin: 30px auto;
+        }
+
+        mark {
+            background-color: #f4a261;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+
+        
